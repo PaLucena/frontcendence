@@ -1,0 +1,75 @@
+* {
+	background-color: purple;
+	color: white;
+	align-items: center;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 30px;
+}
+
+.body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 70vh;
+}
+
+.body form {
+	background-color: #30343c;
+	width: 30%;
+	height: 70%;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+.body form .login-register {
+	background: none;
+	display: flex;
+	flex-direction: row;
+	padding-top: 5vh;
+	padding-bottom: 6vh;
+
+}
+
+.body form .login-register button {
+	width: 20vh;
+	height: 7vh;
+	background: none;
+	color: grey;
+	border-color: lightgray;
+	font-size: large;
+	font-weight: bold;
+	border-width: 2px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+
+.body form .login-register button:active {
+	color: white;
+	border-color: white;
+	border-width: 3px;
+}
+
+.body form .login-section {
+	background: none;
+}
+
+.body form .login-section input {
+	background-color: #585c6c;
+	display: flex;
+	flex-direction: row;
+	width: 40vh;
+	height: 6vh;
+	padding-left: 10px;
+	margin-bottom: 6vh;
+	border: none;
+	border-radius: 10px;
+}
+
+/* .body form .login-section input:active */
